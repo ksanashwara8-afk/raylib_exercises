@@ -1,8 +1,8 @@
-const sketch = require("./sketch");
+const sketch = require("./06_rocket.js");
 
 function loop() {
     while (sketch.running()) {
-        //sketch.update();
+        sketch.update();
         sketch.draw();
     }
 }
